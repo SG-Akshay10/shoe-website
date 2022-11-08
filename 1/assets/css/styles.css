@@ -1,0 +1,86 @@
+* {
+  font-size: 16px;
+}
+
+@media (max-width: 400px) {
+  * {
+    font-size: 13px !important;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 576px) {
+  * {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width:768px) {
+  * {
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 768px) {
+  * {
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 1200px) {
+  * {
+    font-size: 16px;
+  }
+}
+
+.custom_footwear_heading {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 7vh !important;
+}
+
+@media (max-width: 576px) {
+  .custom_footwear_heading {
+    font-size: 4vh !important;
+    font-weight: 300;
+  }
+}
+
+#about_us {
+  text-align: center;
+  padding: 30px;
+  color: #000;
+}
+
+@media (min-width: 992px) {
+  #about_row p {
+    font-size: 1.1em;
+  }
+}
+
+.about-col p {
+  text-align: justify;
+  font-size: 1.25em;
+}
+
+@media (max-width: 576px) {
+  #about_us {
+    min-height: 140vh;
+  }
+}
+
+#features_heading {
+  font-size: 7vh !important;
+}
+
+#about_img {
+  width: 100% !important;
+}
+
+.rig-h2 {
+  text-align: center;
+}
+
+#contact-1 {
+  top: 0 !important;
+}
+
